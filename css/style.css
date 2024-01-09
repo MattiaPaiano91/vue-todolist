@@ -22,3 +22,7 @@ html {
 .todo-list > li > div{
     display: inline-block;
 }
+
+.input-box{
+    width: 50%;
+}
