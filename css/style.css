@@ -10,3 +10,15 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.todo-list {
+    width: fit-content;
+}
+
+.todo-list > li{
+    list-style: none;
+}
+
+.todo-list > li > div{
+    display: inline-block;
+}
