@@ -55,7 +55,7 @@ createApp({
     addTodo() {
       if (this.newTodo.trim().length > 0) {
         let obj = {};
-        obj.text = this.newTodo;
+        obj.text = this.newTodo.trim();
         obj.done = false 
         this.todos.push(obj);
         this.newTodo = "";

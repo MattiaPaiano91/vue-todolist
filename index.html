@@ -51,7 +51,7 @@
               >
                 {{singleToDo.text}} {{singleToDo.done}}
 
-                <button class="btn btn-outline-secondary mx-3" type="button" id="button-addon1" @click="removeTodo(indiceDelTodo)">X</button>
+                <button class="btn btn-outline-secondary mx-3" type="button" id="button-addon1" @click.stop="removeTodo(indiceDelTodo)">X</button>
               </li>
             </ul>
             <p v-else>Non ci sono task</p>
